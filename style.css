@@ -285,6 +285,83 @@ input[type="submit"]{
     display: flex;
     flex-direction: row;
 }
+
+.font-contact {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.body-contact {
+    min-height: 100vh;
+    background: url(/img/gambar/background.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-session { 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.contact-info {
+    color:white;
+    max-width: 500px;
+    line-height: 65px;
+    padding-left: 50px;
+    font-size: 18px;
+}
+.contact-info i {
+    margin: 20px;
+    font-size: 25px;
+}
+
+.contact-form {
+    max-width: 700px;
+    margin-right: 50px;
+}
+
+.contact-form h2 {
+    color:white;
+    text-align: center;
+    font-size: 35px;
+    text-transform:uppercase;
+    margin-bottom: 30px;
+}
+
+.contact-form .text-box {
+    background: #000;
+    color: white;
+    border:none;
+    width: calc(50%-10px);
+    height:50px ;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+.contact-form .text-box:first-child {
+    margin-right: 15px;
+}
+.contact-form textarea {
+    background:black;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    min-height: 200px;
+    max-height: 400px;
+    resize: vertical;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    opacity: 0.9;
+
+}
 @media (min-width: 1023px) {
     .cup-assets {
         width:30%;
