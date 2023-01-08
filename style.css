@@ -197,19 +197,6 @@ nav ul li a:hover {
     margin-bottom:10px;
 }
 
- .img-div {
-        height:150px;
-        width:100%:
-        padding:0px 16px 0px 16px;
-        border-radius: 20px;
-        background:
-                    url("/IMG/foto1.jpg") no-repeat 0px 0px/300px 150px,
-                    url("/IMG/foto2.jpg") no-repeat 300px 0/300px 150px,
-                    url("/IMG/foto3.jpg") no-repeat 600px 0/300px 150px,
- }
-
-
-
 .body-login {
     font-family:'roboto',sans-serif;
 }
@@ -286,9 +273,22 @@ input[type="submit"]{
     flex-direction: column;
 }
 
+.gambar-about {
+    margin-right: 110px;
+    margin-left: -70px;
+    margin-top: 30px;
+    border-radius: 110px;
+    width: 400px;
+}
+
+.gambar-about-container {
+    display: flex;
+    flex-direction: row;
+}
 @media (min-width: 1023px) {
     .cup-assets {
         width:30%;
     }
-  }
+}
+
   
