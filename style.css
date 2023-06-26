@@ -193,7 +193,7 @@ nav ul li a:hover {
     font-family:'courier';
     font-size:30px;
     font-weight:800;
-    align:center;
+    text-align:center;
     margin-bottom:10px;
 }
 
